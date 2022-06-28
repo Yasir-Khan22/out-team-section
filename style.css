@@ -3,6 +3,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background: #d8eefe;
+  font-family: "Montserrat", sans-serif;
+  color: #094067;
+}
 .container {
-  
+border: 2px solid black;
+width: 80%;
+max-width: 1200px;
+margin: auto;
+padding: 1rem 2rem;
+
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container h2 {
+  font-weight: 500;
+  font-size: 2rem;
+  margin: auto;
 }
